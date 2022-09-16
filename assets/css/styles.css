@@ -347,6 +347,7 @@ body.light-theme {
   align-items: flex-end;
   justify-content: center;
   overflow: hidden;
+  /* padding-top: 10em; */
 }
 
 .home__buttons {
@@ -926,8 +927,9 @@ body.light-theme {
     width: 150px;
     height: 253px;
   }
+
   .home__img {
-    width: 130px;
+    width: 50px;
   }
 
   .about__info {
@@ -1019,6 +1021,12 @@ body.light-theme {
   }
 }
 
+@media screen and (max-width: 992px) {
+  .home__img {
+    padding-top: 5em;
+  }
+}
+
 /* For large devices */
 @media screen and (min-width: 992px) {
   .container {
@@ -1041,9 +1049,11 @@ body.light-theme {
     width: 290px;
     height: 400px;
   }
+
   .home__img {
     width: 220px;
   }
+
   .home__social-link {
     padding: 0.4rem;
     font-size: 1.25rem;
