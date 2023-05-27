@@ -1,0 +1,843 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--============= BOOTSTRAP =================-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+
+<!--============== FONT AWESOME =============-->
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/6.1.1/css/font-awesome.min.css">
+    
+<!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/xarbyxofficiallogo.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== BOXICONS ===============-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--============== Animasi AOS =================-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>MNI</title>
+   <link rel="icon" href="assets/img/logo-removebg-preview.png" type="image/gif">
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">MNI</a>
+
+        <div class="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">
+                <i class="bx bx-home-smile"></i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="bx bx-user"></i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-book"></i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#work" class="nav__link">
+                <i class="bx bx-briefcase"></i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="bx bx-message-square-detail"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Theme change button -->
+        <i class='bx bx-moon change-theme' id="theme-button"></i>            
+      </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <span class="home__greeting">Perkenalkan</span>
+            <h1 class="home__name">MUHAMMAD NURIL IRVAN</h1>
+            <h3 class="home__education"><b>WEB Developer</b></h3>
+
+            <div class="home__buttons">
+              <a download="" href="https://drive.google.com/file/d/1yyEdJAQm4npdhKwMujSeXKW6DYNtElM1/view?usp=drive_link" class="button button--ghost">
+                Unduh CV
+              </a>
+              <a href="#about" class="button">Tentang Saya</a>
+            </div>
+          </div>
+
+          <div class="home__handle">
+            <img src="assets/img/boy.png" alt="" class="home__img" />
+          </div>
+
+          <div class="home__social">
+            <a href="https://api.whatsapp.com/send?phone=6282144851960&text=Halo Irvan, saya ingin berbicara dengan anda." target="__blank" class="home__social-link">
+              <i class="bx bxl-whatsapp"></i>
+            </a>
+            
+            <a href="https://www.instagram.com/mnirvan11/" target="__blank" class="home__social-link">
+              <i class="bx bxl-instagram"></i>
+            </a>
+
+            <a href="https://twitter.com/MNIrvan11" target="__blank" class="home__social-link" >
+              <i class="bx bxl-twitter"></i>
+            </a>
+
+            <a href="https://t.me/mnirvan11" target="__blank" class="home__social-link">
+              <i class="bx bxl-telegram"></i>
+            </a>
+          </div>
+
+          <a href="#about" class="home__scroll">
+            <i class="bx bx-mouse-alt home__scroll-icon"></i>
+            <span class="home__scroll-name">Gulir kebawah</span>
+          </a>
+        </div>
+      </section>
+
+      <!--=============== ABOUT ===============-->
+      <section class="about section" id="about">
+        <span class="section__subtitle">Selengkapnya</span>
+        <h2 class="section__title">Tentang saya</h2>
+   
+
+        <div class="about__container container grid">
+          <img src="assets/img/MNI.jpg" class="about__img" data-aos="fade-right" data-aos-delay="400" data-aos-offset="100" data-aos-duration="500"/>
+
+          <div class="about__data" data-aos="fade-left" data-aos-delay="400" data-aos-offset="100" data-aos-duration="500">
+            <div class="about__info">
+              <div class="about__box">
+                <i class="bx bx-award about__icon"></i>
+                <h3 class="about__title">Pengalaman</h3>
+                <span class="about_subtitle">2 Tahun</span>
+              </div>
+
+              <div class="about__box">
+                <i class="bx bx-briefcase about__icon"></i>
+                <h3 class="about__title">Projek</h3>
+                <span class="about_subtitle">5 Selesai</span>
+              </div>
+
+              <div class="about__box">
+                <i class="bx bx-support about__icon"></i>
+                <h3 class="about__title">Bantuan</h3>
+                <span class="about_subtitle">16/5 jam</span>
+              </div>
+            </div>
+
+            <p class="about__description">
+              <i>Saya Lulusan dari SMKN 1 Lumajang, Jurusan Rekayasa Perangkat
+              Lunak, Alasan saya memilih Jurusan tersebut adalah
+              karena ketertarikan saya pada teknologi, pemrograman, dan bahasa
+              komputer.</i> 
+            </p>
+            <div class="row">
+            <div class="col-lg-3">
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>11 Agustus 2004</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+62 821-4485-1960</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Lumajang, Jawa Timur, INDONESIA.</span></li>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>18</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Fresh Graduate</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>mnirvan104@gmail.com | muhammadirfan185@smk.belajar.id  </span></li>
+              </ul>
+            </div>
+          </div>
+            <br>
+            <a href="#contact" class="button">Hubungi saya</a>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== SKILLS ===============-->
+      <section class="skills section" id="skills">
+        <span class="section__subtitle">Kemampuan</span>
+        <h2 class="section__title">Skill yang saya miliki</h2>
+
+        <div class="skills__container container grid" data-aos="zoom-in" data-aos-delay="400" data-aos-offset="100" data-aos-duration="1000">
+          <div class="skills__content">
+            <h3 class="skills__title">Front-End Developer</h3>
+
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxl-html5"></i>
+
+                  <div>
+                    <h3 class="skills__name">HTML</h3>
+                    <span class="skills__level">High</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bxl-css3"></i>
+
+                  <div>
+                    <h3 class="skills__name">CSS</h3>
+                    <span class="skills__level">Medium</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bxl-javascript"></i>
+
+                  <div>
+                    <h3 class="skills__name">JavaScript</h3>
+                    <span class="skills__level">Medium</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxl-bootstrap"></i>
+
+                  <div>
+                    <h3 class="skills__name">Bootstrap</h3>
+                    <span class="skills__level">Medium</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxl-git"></i>
+
+                  <div>
+                    <h3 class="skills__name">Git</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bxl-tailwind-css"></i>
+
+                  <div>
+                    <h3 class="skills__name">Tailwind</h3>
+                    <span class="skills__level">None</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__content">
+            <h3 class="skills__title">Back-End Developer</h3>
+
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxl-nodejs"></i>
+
+                  <div>
+                    <h3 class="skills__name">NodeJS</h3>
+                    <span class="skills__level">None</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bxl-python"></i>
+
+                  <div>
+                    <h3 class="skills__name">Python</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bx-data"></i>
+
+                  <div>
+                    <h3 class="skills__name">MySQL</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxl-firebase"></i>
+
+                  <div>
+                    <h3 class="skills__name">Firebase</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bxl-php"></i>
+
+                  <div>
+                    <h3 class="skills__name">PHP</h3>
+                    <span class="skills__level">Medium</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bx-data"></i>
+
+                  <div>
+                    <h3 class="skills__name">PostgreSQL</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== SERVICES ===============-->
+      <section class="services section">
+        <span class="section__subtitle">Interest</span>
+        <h2 class="section__title">ketertarikan</h2>
+
+        <div class="services__container container grid">
+          <div class="services__card" data-aos="fade-down-right" data-aos-duration="1000" data-aos-delay="150">
+            <h3 class="services__title">
+              <i class="bx bxs-joystick"></i> Gamer
+            </h3>
+
+            <span class="services__button">
+              See more<i class="bx bx-right-arrow-alt services__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+
+                <h3 class="services__modal-title">Hobi Game</h3>
+                <p class="services__modal-description">
+                  Saya sangat menyukai game yang bergenre strategi, adventure,
+                  fps, Rpg dan simulasi.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="services__card" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">
+            <h3 class="services__title">
+              <i class="bx bxs-movie-play"></i> Film
+            </h3>
+
+            <span class="services__button">
+              see more<i class="bx bx-right-arrow-alt services__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+
+                <h3 class="services__modal-title">Anime and Movie</h3>
+                <br class="services__modal-description">
+                  Film adalah media komunikasi yang bersifat audio visual untuk
+                  menyampaikan suatu pesan kepada sekelompok orang yang
+                  berkumpul di suatu tempat tertentu.
+                <br>
+                <br>
+                  Anime adalah media yang bersifat audio visual yang mengajarkan
+                  banyak hal yang tidak dapat saya temukan disekolah, bisa juga
+                  disebut sebagai media belajarku yang berbentuk vidio.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="services__card" data-aos="fade-down-left" data-aos-duration="1000" data-aos-delay="150">
+            <h3 class="services__title">
+              <i class="bx bx-brain"></i> Psikologi
+            </h3>
+
+            <span class="services__button">
+              See more<i class="bx bx-right-arrow-alt services__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+
+                <h3 class="services__modal-title">Psikologi</h3>
+                <p class="services__modal-description">
+                  Psikologi adalah salah satu bidang ilmu pengetahuan dan ilmu
+                  terapan yang mempelajari tentang perilaku, fungsi mental, dan
+                  proses mental manusia melalui prosedur ilmiah.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="services__card" data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="200">
+            <h3 class="services__title">
+              <i class='bx bxs-magic-wand'></i> psikokinesis 
+            </h3>
+
+            <span class="services__button">
+              See more<i class="bx bx-right-arrow-alt services__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+
+                <h3 class="services__modal-title">Telekinesis</h3>
+                <p class="services__modal-description">
+                  Telekinesis adalah kemampuan psikis lain dimana seseorang
+                  dapat memindahkan atau mengangkat benda di sekelilingnya
+                  dengan kehendak nya sendiri, tanpa menggunakan semacam
+                  kekuatan fisik untuk mengangkat benda tersebut.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="services__card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+            <h3 class="services__title">
+              <i class="bx bx-music"></i> song
+            </h3>
+
+            <span class="services__button">
+              See more<i class="bx bx-right-arrow-alt services__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+
+                <h3 class="services__modal-title">Lagu</h3>
+                <p class="services__modal-description">
+                  Sebuah karya seni yang sering saya dengar.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="services__card" data-aos="fade-up-left" data-aos-duration="1000" data-aos-delay="200">
+            <h3 class="services__title">
+              <i class='bx bx-football'></i> Sport
+            </h3>
+
+            <span class="services__button">
+              See more<i class="bx bx-right-arrow-alt services__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+
+                <h3 class="services__modal-title">Olahraga</h3>
+                <p class="services__modal-description">
+                  segala kegiatan yang memiliki aktifitas fisik, melalui
+                  partisipasi kasual ataupun teroganisir dengan tujuan untuk
+                  mengekspresikan atau meningkatkan kemampuan fisik dan mental.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== WORK ===============-->
+      <section class="work section" id="work">
+        <span class="section__subtitle">Portofolio</span>
+        <h2 class="section__title">Galeri dan Projek</h2>
+
+        <div class="work__filters">
+          <span class="work__item active-work" data-filter="all">Still This is What i Learned</span>
+          <span class="work__item active-work">And i Worked on</span>
+          <!-- <span class="work__item" data-filter=".mobile">Mobile</span> -->
+          <!-- <span class="work__item" data-filter=".design">Bahasa Pemrograman</span> -->
+        </div>
+
+        <div class="work__container container grid">
+          <div class="work__card mix design">
+            <img src="assets/img/web_desain.png" alt="" class="work__img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="150"/>
+
+            <h3 class="work__title">Web Design Responsive CSS</h3>
+            <span span class="services__button">
+              See more<i class="bx bx-right-arrow-alt services__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+                <img src="assets/img/web_desain.png" alt="">
+                <h3 class="services__modal-title" style="padding-top: 1em;">Web Responsive Menggunakan CSS</h3>
+                <p class="services__modal-description">
+                  metode bagi web designer untuk membuat suatu layout website yang dapat menyesuaikan diri sesuai dengan ukuran layar pengguna menggunakan
+                  <span class="services__modal-title text-center" style="font-size: small; text-align: center;"><b>CSS Grid</b></span>
+                </p>
+              </div>
+            </div>
+            <!-- <a href="" class="work__button">
+              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a> -->
+          </div>
+
+          <div class="work__card mix design">
+            <img src="assets/img/CSS_GRID.png" alt="" class="work__img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="150"/>
+
+            <h3 class="work__title">CSS GRID</h3>
+            <span span class="services__button">
+              See more<i class="bx bx-right-arrow-alt services__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+                <img src="assets/img/CSS_GRID.png" alt="">
+                <h3 class="services__modal-title" style="padding-top: 1em;">CSS Grid</h3>
+                <p class="services__modal-description">
+                  CSS Grid adalah CSS yang dapat membagi kolom pada website menjadi beberapa bagian sesuai yang diinginkan, baik secara horizontal maupun vertikal. Penggunaan CSS Grid bertujuan untuk mempermudah Developer untuk membuat layout dari design yang telah dibuat.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="work__card mix web">
+            <img src="assets/img/e-recruitment.png" alt="" class="work__img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="250"/>
+
+            <h3 class="work__title">E-Recruitment Laravel 9</h3>
+            <span span class="services__button">
+              See more<i class="bx bx-right-arrow-alt services__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+                <img src="assets/img/e-recruitment.png" alt="">
+                <h3 class="services__modal-title" style="padding-top: 1em;">E-Recruitment Menggunakan Framework Laravel</h3>
+                <p class="services__modal-description">
+                  Sebuah aplikasi yang bertujuan menyetujui layak atau tidaknya karyawan baru untuk bergabung dengan perusahaan.<br>ini adalah salah satu projek PKL yang saya kerjakan di PT. MASCITRA.COM menggunakan Framework Laravel versi 9  
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="work__card mix web">
+            <img src="assets/img/coding2.jpg" alt="" class="work__img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="250"/>
+
+            <h3 class="work__title">Code Igniter 3</h3>
+            <span span class="services__button">
+              See more<i class="bx bx-right-arrow-alt services__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+                <img src="assets/img/coding2.jpg" alt="">
+                <h3 class="services__modal-title" style="padding-top: 1em;">CodeIgniter 3</h3>
+                <p class="services__modal-description">
+                  Salah satu Framework yang saya pelajari di tempat PKL PT. MASCITRA.COM <br>
+                  CodeIgniter merupakan aplikasi sumber terbuka yang berupa kerangka kerja PHP dengan model MVC untuk membangun situs web dinamis dengan menggunakan PHP.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="work__card mix desain">
+            <img src="assets/img/coding3.jpg" alt="" class="work__img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="350"/>
+            <h3 class="work__title">JavaScript</h3>
+            <span span class="services__button">
+              See more<i class="bx bx-right-arrow-alt services__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+                <img src="assets/img/coding3.jpg" alt="">
+                <h3 class="services__modal-title" style="padding-top: 1em;">JavaScript</h3>
+                <p class="services__modal-description">
+                  JavaScript adalah bahasa pemrograman tingkat tinggi dan dinamis. JavaScript populer di internet dan dapat bekerja di sebagian besar penjelajah web populer seperti Google Chrome, Internet Explorer, Mozilla Firefox, Netscape dan Opera. Kode JavaScript dapat disisipkan dalam halaman web menggunakan tag SCRIPT.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="work__card mix mobile">
+            <img src="assets/img/coding14.jpg" alt="" class="work__img" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="350"/>
+
+            <h3 class="work__title">Animasi AOS dan Gsap</h3>
+            <span span class="services__button">
+              See more<i class="bx bx-right-arrow-alt services__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+                <img src="assets/img/coding14.jpg" alt="">
+                <h3 class="services__modal-title" style="padding-top: 1em;">AOS & GSAP</h3>
+                <p class="services__modal-description">
+                  <span class="services__modal-title text-center" style="font-size: small; text-align: center;">AOS</span> merupakan salah satu library yang digunakan untuk membuat animasi baik itu teks maupun objek.
+                  <br>
+                  <span class="services__modal-title text-center" style="font-size: small; text-align: center;">GSAP</span> adalah seperangkat alat untuk animasi scripting, Cepat dan efisien merupakan kelebihan yang dimiliki oleh Greensock JS. Library ini bisa berjalan hampir di semua browser.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =============== TESTIMONIALS ===============-->
+      <section class="testimonial section" id="testimonial">
+        <span class="section__subtitle">Testimonial</span>
+        <h2 class="section__title">Apa yang mereka katakan?</h2>
+
+        <div class="testimonial__container container swiper">
+          <div class="swiper-wrapper">
+            <div class="testimonial__card swiper-slide">
+              <img
+                src="assets/img/testimonial1.png"
+                alt=""
+                class="testimonial__img"
+              />
+
+              <h3 class="testimonial__name">Jhon Doe</h3>
+              <p class="testimonial__description">
+                A really good job, all aspects of the project were followed step
+                by step and with good results.
+              </p>
+            </div>
+
+            <div class="testimonial__card swiper-slide">
+              <img
+                src="assets/img/testimonial2.png"
+                alt=""
+                class="testimonial__img"
+              />
+
+              <h3 class="testimonial__name">Paula Vusy</h3>
+              <p class="testimonial__description">
+                A really good job, all aspects of the project were followed step
+                by step and with good results.
+              </p>
+            </div>
+
+            <div class="testimonial__card swiper-slide">
+              <img
+                src="assets/img/testimonial3.png"
+                alt=""
+                class="testimonial__img"
+              />
+
+              <h3 class="testimonial__name">Sara Cill</h3>
+              <p class="testimonial__description">
+                A really good job, all aspects of the project were followed step
+                by step and with good results.
+              </p>
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--=============== CONTACT ===============-->
+      <section class="contact section" id="contact" data-aos="fade-up"
+      data-aos-anchor-placement="top-center" data-aos-duration="1000">
+        <span class="section__subtitle">Berinteraksi</span>
+        <h2 class="section__title">Dengan saya</h2>
+
+        <div class="contact__container container grid">
+          <div class="contact__content">
+            <h3 class="contact__title">Bicara dengan saya</h3>
+
+            <div class="contact__info">
+              <div class="contact__card">
+                <i class="bx bx-mail-send contact__card-icon"></i>
+                <h3 class="contact__card-title">Email</h3>
+                <span class="contact__card-data"></span>
+                <!-- mailto:examplemail@correo.com -->
+                <a
+                  href="mailto:mni110804@gmail.com"
+                  target="_blank"
+                  class="contact__button"
+                >
+                  Email Me
+                  <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                </a>
+              </div>
+
+              <div class="contact__card">
+                <i class="bx bxl-whatsapp contact__card-icon"></i>
+                <h3 class="contact__card-title">Whatsapp</h3>
+                <span class="contact__card-data"></span>
+                <!-- https://api.whatsapp.com/send?phone=966534340375&text=Hello, more information! -->
+                <a
+                  href="https://api.whatsapp.com/send?phone=6282144851960&text=Hello, more information!"
+                  target="_blank"
+                  class="contact__button"
+                >
+                  Message me
+                  <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                </a>
+              </div>
+
+              <div class="contact__card">
+                <i class="bx bxl-messenger contact__card-icon"></i>
+                <h3 class="contact__card-title">Messenger</h3>
+                <span class="contact__card-data"></span>
+
+                <a href="#" target="_blank" class="contact__button">
+                  Message me
+                  <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact__content">
+            <h3 class="contact__title">Tulis ide kalian</h3>
+
+            <form action="" class="contact__form">
+              <div class="contact__form-div">
+                <label for="" class="contact__form-tag">Nama</label>
+                <input
+                  type="text"
+                  placeholder="Masukkan nama kamu"
+                  class="contact__form-input"
+                />
+              </div>
+
+              <div class="contact__form-div">
+                <label for="" class="contact__form-tag">Email</label>
+                <input
+                  type="email"
+                  placeholder="Masukkan email kamu"
+                  class="contact__form-input"
+                />
+              </div>
+
+              <div class="contact__form-div contact__form-area">
+                <label for="" class="contact__form-tag">Ide Kalian</label>
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Tulis ide kalian"
+                  class="contact__form-input"
+                ></textarea>
+              </div>
+
+              <button class="button">Kirim Pesan</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+      <div class="footer__container container">
+        <h1 class="footer__title">MNI</h1>
+
+        <ul class="footer__list">
+          <li>
+            <a href="#about" class="footer__link">Tentang</a>
+          </li>
+          <li>
+            <a href="#work" class="footer__link">Galeri</a>
+          </li>
+          <li>
+            <a href="#testimonial" class="footer__link">Testimonial</a>
+          </li>
+        </ul>
+
+        <ul class="footer__social">
+          <a
+            href="https://www.facebook.com/mni.sl.5"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="bx bxl-facebook"></i>
+          </a>
+
+          <a
+            href="https://t.me/mnirvan11"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="bx bxl-telegram"></i>
+          </a>
+
+          <a
+            href="https://twitter.com/MNIrvan11"
+            target="_blank"
+            class="footer__social-link">
+            <i class="bx bxl-twitter"></i>
+          </a>
+
+        <a href="https://www.instagram.com/irvankun_"
+            target="__blank"
+            class="footer__social-link">
+            <i class='bx bxl-instagram-alt'></i>
+          </a>
+
+          <a href="https://discord.com/channels/@me"
+             target="__blank" class="footer__social-link">
+             <i class='bx bxl-discord-alt'></i>
+          </a>
+
+          <a href="https://github.com/MNIrvan"
+             target="__blank" class="footer__social-link">
+             <i class='bx bxl-github'></i>
+          </a>
+
+          <a href="https://open.spotify.com/collection/tracks"
+             target="__blank" class="footer__social-link">
+             <i class='bx bxl-spotify'></i>
+          </a>
+
+        </ul>
+
+        <span class="footer__copy"> &#169; MNI. All Rights Reserved </span>
+      </div>
+    </footer>
+
+    <!--================ Animate AOS =================-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
+
